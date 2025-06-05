@@ -1,6 +1,6 @@
 {
   "name": "ollama-models-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package that scrapes the Ollama website to get a searchable list of models",
   "type": "module",
   "main": "dist/index.js",
