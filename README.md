@@ -1,4 +1,5 @@
 # Ollama Models Search
+[![npm version](https://img.shields.io/npm/v/ollama-models-search)](https://www.npmjs.com/package/ollama-models-search)
 
 A TypeScript package that scrapes the Ollama website to provide a searchable list of AI models with their metadata.
 
