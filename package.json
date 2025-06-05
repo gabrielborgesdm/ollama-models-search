@@ -1,0 +1,42 @@
+{
+  "name": "ollama-models-search",
+  "version": "1.0.0",
+  "description": "Package that scrapes the Ollama website to get a searchable list of models",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "pack": "npm run build && npm pack",
+    "publish": "npm run build && npm publish",
+    "test": "jest"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielborgesdm/ollama-models-search.git"
+  },
+  "keywords": [
+    "ollama",
+    "models",
+    "search",
+    "list"
+  ],
+  "author": "Gabriel Borges",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielborgesdm/ollama-models-search/issues"
+  },
+  "homepage": "https://github.com/gabrielborgesdm/ollama-models-search#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cheerio": "^1.0.0",
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3"
+  }
+}
